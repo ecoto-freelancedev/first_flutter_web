@@ -1,6 +1,7 @@
 # Flutter Calculator Web App
 
-A basic calculator example that execute math operations of two quantities.
+A basic calculator example that execute math operations of two quantities. This example implements the state management 
+with provider
 
 ![](screenshot1.png)
 ![](screenshot2.png)
