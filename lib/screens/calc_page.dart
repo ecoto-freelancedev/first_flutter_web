@@ -9,8 +9,8 @@ class CalcPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Calculator'),
+        backgroundColor: Colors.indigo,
       ),
-      backgroundColor: Colors.blueGrey,
       body: Center(
         child: Container(
           height: 550,

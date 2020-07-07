@@ -57,6 +57,11 @@ class Button extends StatelessWidget {
       case '-':
         _addOperation(calcProvider, text);
         break;
+      case 'Del':
+        if (calcProvider.screenText.length != 0) {
+          _delete(calcProvider, calcProvider.screenText);
+        }
+        break;
       case '+':
         _addOperation(calcProvider, text);
         break;
@@ -90,6 +95,11 @@ class Button extends StatelessWidget {
   void _addOperation(CalcProvider calcProvider, String text) {
     calcProvider.screenText += text;
     calcProvider.mathOp = text;
+    calcProvider.textResultController.text = calcProvider.screenText;
+  }
+
+  void _delete(CalcProvider calcProvider, String text) {
+    calcProvider.screenText = text.substring(0, text.length - 1);
     calcProvider.textResultController.text = calcProvider.screenText;
   }
 

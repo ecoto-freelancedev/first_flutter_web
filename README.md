@@ -1,16 +1,19 @@
-# Flutter web app
+# Flutter Calculator Web App
 
-A new Flutter web application.
+A basic calculator example that execute math operations of two quantities.
 
-## Getting Started
+![](screenshot1.png)
+![](screenshot2.png)
 
-This project is a starting point for a Flutter application.
+## Constructed with 🛠️
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter](https://flutter.dev) - used Framework
+- [Provider](https://pub.dev/packages/provider#-installing-tab-) - used package
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Author ✒️
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Eduardo Coto** - creator of proyect.
+
+## License 📄
+
+<p> This project is under the License(MIT)</p>

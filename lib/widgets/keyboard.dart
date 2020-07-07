@@ -49,7 +49,8 @@ class Keyboard extends StatelessWidget {
         Column(
           children: [
             Button(text: '-', height: 70, width: 70),
-            Button(text: '+', height: 150, width: 70),
+            Button(text: 'Del', height: 70, width: 70),
+            Button(text: '+', height: 70, width: 70),
             Button(text: '=', height: 150, width: 70),
           ],
         ),
